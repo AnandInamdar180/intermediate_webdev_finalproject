@@ -3,7 +3,7 @@ const calculateSimpleInterest = (p, r, t) => {
 };
 
 const calculateTotalPayableAmount = (p, simpleInterest) => {
-  return p - simpleInterest;
+  return p + simpleInterest;
 };
 
 const calculate = () => {
